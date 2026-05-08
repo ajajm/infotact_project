@@ -47,3 +47,4 @@ const UserSchema = new Schema<IUser>(
 );
 
 export const User = model<IUser>('User', UserSchema);
+// Patient and Doctor schemas defined with field indexes and references
