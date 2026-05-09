@@ -4,3 +4,4 @@
 ## [Week 1] May 8 - MongoDB Atlas provisioned with secure env-based connection config
 ## [Week 1] May 9 - Appointment schema: datetime, doctor ref, status enum
 ## [Week 1] May 9 - MedicalRecord schema: vitals, diagnosis, allergy history sub-docs
+## [Week 1] May 9 - Prescription schema: medication, dosage, QR hash placeholder
