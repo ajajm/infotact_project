@@ -67,3 +67,4 @@ const startServer = async () => {
 };
 
 startServer();
+// Server initialized: CORS, JSON parser, route mounting configured
