@@ -23,3 +23,4 @@ export const generateToken = (payload: { userId: string; role: string; storeId?:
 export const verifyToken = (token: string): any => {
   return jwt.verify(token, JWT_SECRET);
 };
+// bcrypt salt rounds: 10 | JWT expiry: 1d | Token signing configured
