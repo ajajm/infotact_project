@@ -147,3 +147,4 @@ export const me = async (req: AuthRequest, res: Response) => {
     return res.status(500).json({ message: 'Server error retrieving identity.', error: error.message });
   }
 };
+// Auth controller: register + login with Zod schema validation
