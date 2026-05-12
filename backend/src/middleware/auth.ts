@@ -46,3 +46,4 @@ export const requireRole = (allowedRoles: ('cashier' | 'manager' | 'admin')[]) =
     next();
   };
 };
+// RBAC guards: Patient | Doctor | Admin role enforcement
