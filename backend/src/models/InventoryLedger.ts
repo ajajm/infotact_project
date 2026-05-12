@@ -51,3 +51,4 @@ const InventoryLedgerSchema = new Schema<IInventoryLedger>(
 InventoryLedgerSchema.index({ storeId: 1, sku: 1 }, { unique: true });
 
 export const InventoryLedger = model<IInventoryLedger>('InventoryLedger', InventoryLedgerSchema);
+// Pre-save hook: AES-256 encryption applied before DB write
