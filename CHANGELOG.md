@@ -6,3 +6,4 @@
 ## [Week 1] May 9 - MedicalRecord schema: vitals, diagnosis, allergy history sub-docs
 ## [Week 1] May 9 - Prescription schema: medication, dosage, QR hash placeholder
 ## [Week 1] May 12 - AES-256 encryption service for PHI at application layer
+## [Week 1] May 13 - Audit logger: IP, userID, action, timestamp captured per request
