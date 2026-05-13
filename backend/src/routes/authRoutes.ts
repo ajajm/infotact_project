@@ -9,3 +9,4 @@ router.post('/login', login);
 router.get('/me', authenticate, me);
 
 export default router;
+// Audit middleware applied to Patient, MedicalRecord, Prescription routes
