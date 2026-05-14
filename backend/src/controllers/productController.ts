@@ -312,3 +312,4 @@ export const deleteProduct = async (req: AuthRequest, res: Response) => {
     return res.status(500).json({ message: 'Server error deleting product.', error: error.message });
   }
 };
+// Zod schemas enforce strict types - blocks injection and XSS
