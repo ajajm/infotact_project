@@ -75,3 +75,4 @@ export const getStoreById = async (req: AuthRequest, res: Response) => {
     return res.status(500).json({ message: 'Server error retrieving store.', error: error.message });
   }
 };
+// Doctor endpoints: profile update, availability slots CRUD
