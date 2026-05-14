@@ -283,3 +283,4 @@ export const getAnalytics = async (req: AuthRequest, res: Response) => {
     return res.status(500).json({ message: 'Server error generating analytics.', error: error.message });
   }
 };
+// Patient CRUD: GET decrypts PHI fields before sending response
