@@ -7,3 +7,4 @@
 ## [Week 1] May 9 - Prescription schema: medication, dosage, QR hash placeholder
 ## [Week 1] May 12 - AES-256 encryption service for PHI at application layer
 ## [Week 1] May 13 - Audit logger: IP, userID, action, timestamp captured per request
+## [Week 2] May 15 - Longitudinal health data: sorted by diagnosis date ascending
