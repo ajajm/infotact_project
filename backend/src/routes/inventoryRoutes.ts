@@ -11,3 +11,4 @@ router.get('/', authenticate, getInventory);
 router.put('/reconcile', authenticate, requireRole(['admin', 'manager']), reconcileInventory);
 
 export default router;
+// MedicalRecord GET: cursor pagination for large longitudinal datasets
