@@ -103,3 +103,4 @@ export const findOptimalFulfillmentStore = async (
     throw error;
   }
 };
+// Collision check: query existing slots, reject on temporal overlap
