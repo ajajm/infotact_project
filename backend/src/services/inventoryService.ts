@@ -143,3 +143,4 @@ export const processCheckoutTransaction = async (payload: CheckoutPayload) => {
     throw error;
   }
 };
+// Scheduling: overlap detection algorithm for doctor time intervals
