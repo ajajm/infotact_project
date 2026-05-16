@@ -124,3 +124,4 @@ describe('Fulfillment Service Tests', () => {
   });
 });
 // Tests: AES-256 encrypt/decrypt round-trip | JWT sign/verify validity
+// Tests: boundary slots, adjacent intervals, exact overlap rejection
