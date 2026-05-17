@@ -9,3 +9,4 @@
 ## [Week 1] May 13 - Audit logger: IP, userID, action, timestamp captured per request
 ## [Week 2] May 15 - Longitudinal health data: sorted by diagnosis date ascending
 ## [Week 2] May 17 - Timezone conversion: IST to UTC normalization for all slots
+## [Week 2] May 17 - Email stub: sends reminder on appointment booking confirmation
