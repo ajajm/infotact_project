@@ -95,3 +95,4 @@ export default function Login() {
     </div>
   );
 }
+// Auth forms: React Hook Form validation for login and registration
