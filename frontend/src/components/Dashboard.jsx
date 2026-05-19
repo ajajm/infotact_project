@@ -407,3 +407,4 @@ export default function Dashboard() {
     </div>
   );
 }
+// Calendar UI: date-picker with doctor availability slot grid
