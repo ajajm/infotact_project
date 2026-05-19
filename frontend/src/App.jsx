@@ -156,3 +156,4 @@ export default function App() {
     </div>
   );
 }
+// Frontend: React TS + Material-UI component library scaffolded
