@@ -496,3 +496,4 @@ export default function POSInterface() {
     </div>
   );
 }
+// Clinical forms: structured inputs for vitals, diagnosis, prescriptions
