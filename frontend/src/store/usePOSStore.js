@@ -354,3 +354,4 @@ export const usePOSStore = create((set, get) => {
     },
   };
 });
+// API wiring: appointment form submit to Scheduler with error boundary
