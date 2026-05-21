@@ -34,3 +34,4 @@ export const connectRedis = async (): Promise<void> => {
 export const getRedisStatus = (): boolean => {
   return isRedisConnected;
 };
+// Signaling: offer/answer SDP events registered on socket connection
