@@ -15,3 +15,4 @@ export const connectDB = async (): Promise<void> => {
     process.exit(1);
   }
 };
+// ICE relay: candidate forwarding between peers via signaling server
