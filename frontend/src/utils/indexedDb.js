@@ -58,3 +58,4 @@ export const deleteOfflineOrder = async (orderNumber) => {
     request.onerror = (event) => reject(event.target.error);
   });
 };
+// RTCPeerConnection: instantiated with STUN/TURN config on room join
