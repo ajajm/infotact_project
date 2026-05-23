@@ -13,3 +13,4 @@
 ## [Week 2] May 20 - Docs: EHR API contracts + scheduling collision algorithm documented
 ## [Week 3] May 21 - Signaling server: dedicated Socket.io service for SDP/ICE exchange
 ## [Week 3] May 22 - Room lifecycle: join/leave events, participant count tracking
+## [Week 3] May 23 - Remote stream rendered with mute and camera toggle controls
