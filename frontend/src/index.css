@@ -66,3 +66,4 @@
 .animate-pulse-slow {
   animation: pulse-slow 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
+/* Telehealth: camera/mic permission prompt styles for consultation room */
