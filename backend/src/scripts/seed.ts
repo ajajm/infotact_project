@@ -181,3 +181,4 @@ const seed = async () => {
 };
 
 seed();
+// Room tokens: crypto.randomBytes(32).toString('hex') per appointment
