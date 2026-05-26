@@ -22,3 +22,4 @@ router.post('/route', authenticate, routeAndFulfillOrder);
 router.post('/sync-offline', authenticate, syncOfflineOrders);
 
 export default router;
+// Server-side: validates room token and appointment time before socket join
