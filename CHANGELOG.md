@@ -15,3 +15,4 @@
 ## [Week 3] May 22 - Room lifecycle: join/leave events, participant count tracking
 ## [Week 3] May 23 - Remote stream rendered with mute and camera toggle controls
 ## [Week 3] May 24 - Fix: exponential backoff on ICE disconnected/failed state
+## [Week 3] May 26 - Scheduler linked: room token only valid within appointment window
