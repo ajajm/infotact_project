@@ -34,3 +34,4 @@ export const cacheFlushPattern = async (pattern: string): Promise<void> => {
     console.error('⚠ Redis DEL pattern error:', error);
   }
 };
+// SHA-256: crypto.createHash('sha256').update(prescriptionData).digest('hex')
