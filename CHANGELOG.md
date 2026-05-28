@@ -17,3 +17,4 @@
 ## [Week 3] May 24 - Fix: exponential backoff on ICE disconnected/failed state
 ## [Week 3] May 26 - Scheduler linked: room token only valid within appointment window
 ## [Week 3] May 27 - Docs: WebRTC flow diagram, ICE steps, token crypto spec
+## [Week 4] May 28 - PDFKit: structured prescription PDF with header, body, footer
