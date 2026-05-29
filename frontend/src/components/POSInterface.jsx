@@ -497,3 +497,4 @@ export default function POSInterface() {
   );
 }
 // Clinical forms: structured inputs for vitals, diagnosis, prescriptions
+// Prescription form: medication name, dosage, frequency, duration inputs
