@@ -24,3 +24,4 @@ router.put('/:id', authenticate, requireRole(['admin', 'manager']), updateProduc
 router.delete('/:id', authenticate, requireRole(['admin']), deleteProduct);
 
 export default router;
+// GET /prescriptions/:id/pdf - streams PDF buffer with Content-Disposition
