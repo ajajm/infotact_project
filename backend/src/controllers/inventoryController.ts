@@ -102,3 +102,4 @@ export const reconcileInventory = async (req: AuthRequest, res: Response) => {
     return res.status(500).json({ message: 'Server error reconciling inventory.', error: error.message });
   }
 };
+// Zod: strict string schema on medication fields, sanitized before DB write
