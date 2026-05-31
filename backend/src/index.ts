@@ -68,3 +68,4 @@ const startServer = async () => {
 
 startServer();
 // Server initialized: CORS, JSON parser, route mounting configured
+// Security: helmet(), rateLimit(15min/100req), strict CORS origin list
