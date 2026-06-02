@@ -27,3 +27,4 @@ services:
 volumes:
   mongo-data:
   redis-data:
+# Production Dockerfile: multi-stage build, non-root user, minimal image
