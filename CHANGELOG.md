@@ -21,3 +21,4 @@
 ## [Week 4] May 29 - QR code: encodes SHA-256 hash for pharmacist verification
 ## [Week 4] May 31 - Dependabot: 4 moderate CVEs patched, 0 critical remaining
 ## [Week 4] May 31 - GH Advanced Security: 2 findings resolved, CodeQL passing
+## [Week 4] Jun 2 - CI: lint + tsc + vitest run on every pull request
