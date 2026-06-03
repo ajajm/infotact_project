@@ -22,3 +22,4 @@
 ## [Week 4] May 31 - Dependabot: 4 moderate CVEs patched, 0 critical remaining
 ## [Week 4] May 31 - GH Advanced Security: 2 findings resolved, CodeQL passing
 ## [Week 4] Jun 2 - CI: lint + tsc + vitest run on every pull request
+## [Week 4] Jun 3 - CD: Docker build + push + deploy on merge to main
