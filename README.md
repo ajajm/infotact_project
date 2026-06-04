@@ -148,3 +148,4 @@ Running `npm run seed` creates the following default accounts for instant log-in
 *   `POST /checkout`: Performs ACID-safe checkout and stock decrement.
 *   `POST /route`: Optimally routes online order coordinates to the best store.
 *   `POST /sync-offline`: Performs batch synchronizations of buffered offline sales.
+## Security: AES-256 for PHI at rest | TLS in transit | JWT stateless auth
