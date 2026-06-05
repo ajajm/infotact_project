@@ -24,3 +24,4 @@
 ## [Week 4] Jun 2 - CI: lint + tsc + vitest run on every pull request
 ## [Week 4] Jun 3 - CD: Docker build + push + deploy on merge to main
 ## [Week 4] Jun 4 - Swagger: all routes documented with request/response schemas
+## [Week 4] Jun 5 - FINAL: E2E passed, production deployed, sign-off complete
