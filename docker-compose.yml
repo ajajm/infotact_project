@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  mongodb:
+    image: mongo:6.0
+    container_name: pos-mongodb
+    command: mongod --replSet rs0 --bind_ip_all
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+    healthcheck:
+      test: mongosh --eval "try { rs.status().ok } catch (e) { rs.initiate({_id:'rs0',members:[{_id:0,host:'mongodb:27017'}]}).ok }" --quiet || mongosh --eval "try { rs.status().ok } catch (e) { rs.initiate({_id:'rs0',members:[{_id:0,host:'localhost:27017'}]}).ok }" --quiet
+      interval: 10s
+      timeout: 10s
+      retries: 5
+
+  redis:
+    image: redis:7.0-alpine
+    container_name: pos-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+    command: redis-server --save 60 1 --loglevel warning
+
+volumes:
+  mongo-data:
+  redis-data:

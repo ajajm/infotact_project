@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables - NEVER commit these
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/settings.json
+.idea/
+
+# Docker volumes
+mongo-data/
+redis-data/
+
+# Test coverage
+coverage/
+
+# Commit script (internal use only)
+commit_history.ps1
